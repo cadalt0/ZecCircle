@@ -1,0 +1,42 @@
+# dependencies / build output
+node_modules/
+dist/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets & local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# wallet + database data (keys, seeds, identities)
+data/
+*.db
+*.sqlite
+identity.txt
+keys.toml
+
+# downloaded / compiled tools and binaries
+tools/
+bin/
+
+# hackathon briefing notes (not part of the code)
+/*.txt
+/*.txt'
+
+# logs & OS junk
+*.log
+.DS_Store
+.vercel
+.claude/
+
+# unreferenced reference copies / scratch notes
+zeccircle/data_api.rs
+zeccircle/wallet-backend.rs
+webiste/1.md

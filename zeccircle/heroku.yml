@@ -1,0 +1,4 @@
+# Used when deploying with `heroku stack:set container`. The bot has no web port: it polls Telegram.
+build:
+  docker:
+    worker: Dockerfile
